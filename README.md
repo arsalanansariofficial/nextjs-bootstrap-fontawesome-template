@@ -1,6 +1,6 @@
 ### The Ansari Weather
 
-Project based on **Next.js**, it provides an interface for fetching weather data.
+Project based on **Next.js**, template for getting started with NextJs, Bootstrap & Font Awesome.
 
 ### Pre Requisites
 
