@@ -1,0 +1,28 @@
+{
+  "private": true,
+  "version": "0.1.0",
+  "author": "Arsalan Ansari",
+  "name": "nextjs-bootstrap-fontawesome-template",
+  "description": "Template for getting started with NextJs, Bootstrap & Font Awesome",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "auto-build": "nodemon --ext tsx,jsx,ts,js,css --exec \"npm run build && npm start\""
+  },
+  "dependencies": {
+    "react": "^18",
+    "next": "14.2.3",
+    "react-dom": "^18",
+    "bootstrap": "^5.3.3",
+    "font-awesome": "^4.7.0"
+  },
+  "devDependencies": {
+    "typescript": "^5",
+    "nodemon": "^3.1.3",
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "@types/bootstrap": "^5.2.10"
+  }
+}

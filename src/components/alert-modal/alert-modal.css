@@ -1,0 +1,16 @@
+.modal {
+  --white: #ffffff;
+  --bg-card: #1b1b1d;
+  --clr-primary: #f8e5e5;
+
+  color: var(--clr-primary);
+  background: var(--bg-backdrop);
+}
+
+.alert-modal-content {
+  background: var(--bg-card);
+}
+
+.btn-modal {
+  color: var(--white) !important;
+}

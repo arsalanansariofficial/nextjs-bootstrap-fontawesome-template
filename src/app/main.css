@@ -1,0 +1,91 @@
+@import 'bootstrap';
+@import 'font-awesome';
+
+@font-face {
+  font-family: 'Ubuntu Mono';
+  src: url('/fonts/ubuntu-mono/ub-regular.ttf') format('truetype');
+  font-weight: var(--fw-700);
+}
+
+@font-face {
+  font-family: 'Ubuntu Mono';
+  src: url('/fonts/ubuntu-mono/ub-regular.ttf') format('truetype');
+  font-weight: var(--fw-700);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  /* __Neutral__ */
+  --white: #ffffff;
+  --black: #000000;
+
+  /* __Primary__ */
+  --bg-card: #f8e5e5;
+  --bg-primary: #ffffff;
+  --bg-selected: #fbafb9;
+  --bg-backdrop: #35353580;
+  --bg-today: #76867b;
+  --clr-today: #ffffff;
+  --clr-primary: #000000;
+  --clr-secondary: #000000;
+  --clr-selected: #000000;
+
+  /* __Font Weight__ */
+  --fw-400: 400;
+  --fw-700: 700;
+
+  color: var(--clr-primary);
+  background: var(--bg-primary);
+  font-family: 'Ubuntu Mono', monospace;
+}
+
+.dark {
+  --bg-card: #1b1b1d;
+  --bg-today: #212121;
+  --bg-primary: #111015;
+  --bg-backdrop: #35353580;
+  --bg-selected: #35122e;
+  --clr-today: #ffffff;
+  --clr-primary: #f8e5e5;
+  --clr-secondary: #c79c9c;
+  --clr-selected: #f8e5e5;
+
+  color: var(--clr-primary);
+  background: var(--bg-primary);
+}
+
+img {
+  border-radius: 0.5em;
+  aspect-ratio: 1/1;
+  object-fit: cover;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a,
+button {
+  color: inherit !important;
+}
+
+a {
+  text-decoration: none;
+}
+
+.selected {
+  color: var(--clr-selected) !important;
+  background: var(--bg-selected) !important;
+}
+
+.mw-3 {
+  max-width: 3em;
+}
+
+.mw-5 {
+  max-width: 5em;
+}
